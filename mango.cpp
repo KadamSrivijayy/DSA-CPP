@@ -54,8 +54,15 @@
 
 
 
+// int main(){
+//     int arr[] = {33,23,13,-22,8,64};
+//     int size = 6;
 
+//     int target = 8;
+//     linearSearch(arr, size, target);
+//     return 0;
 
+// }
 
 
 // Reverse an array
