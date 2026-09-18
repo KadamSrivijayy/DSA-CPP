@@ -29,6 +29,7 @@ using namespace std;
 
 
 
+// // Insert an element at the beginning of an array
 
 // int main(){
 //     int arr[10] = {10, 20, 30, 40, 50};
@@ -58,22 +59,26 @@ using namespace std;
 
 
 
-int main(){
-    int arr[10] = {10, 20, 30, 40, 50};
-    int size = 5;
-
-    int pos = size;
-    int value = 60;
 
 
-    arr[pos] = value;
-    size++;
+
+// // Insert an element at the end of an array
+// int main(){
+//     int arr[10] = {10, 20, 30, 40, 50};
+//     int size = 5;
+
+//     int pos = size;
+//     int value = 60;
 
 
-    for(int i = 0; i<size ; i++){
-        cout<< arr[i]<< " ";
-    }
+//     arr[pos] = value;
+//     size++;
 
-    return 0;
 
-}
+//     for(int i = 0; i<size ; i++){
+//         cout<< arr[i]<< " ";
+//     }
+
+//     return 0;
+
+// }

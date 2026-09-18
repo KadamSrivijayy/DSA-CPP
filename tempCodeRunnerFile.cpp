@@ -1,3 +1,24 @@
- x=10, y=20;
-    // if(x==y);
-    //     cout<<x<<" "<<y;
+
+
+
+
+// Insert an element at the end of an array
+int main(){
+    int arr[10] = {10, 20, 30, 40, 50};
+    int size = 5;
+
+    int pos = size;
+    int value = 60;
+
+
+    arr[pos] = value;
+    size++;
+
+
+    for(int i = 0; i<size ; i++){
+        cout<< arr[i]<< " ";
+    }
+
+    return 0;
+
+}
