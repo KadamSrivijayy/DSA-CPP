@@ -22,7 +22,7 @@ void printArray(int arr[], int size) {
 
 int main(){
     int size = 5;
-    int arr[] = {43, 51, 58, 52, 93};
+    int arr[] = {43, 81, 58, 52, 93};
     selectionSort(arr, size);
     printArray(arr, size);
 
