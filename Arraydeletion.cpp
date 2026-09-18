@@ -25,26 +25,54 @@ using namespace std;
 
 
 
-// Delete an element from the beginning
+
+
+// // Delete an element from the beginning
+
+// int main(){
+//     int arr[] = {10, 20, 30, 40, 50};
+//     int size = 5;
+
+
+//     int pos = 0;
+//     for(int i = pos; i < size - 1; i++){
+//         arr[i] = arr[i+1];
+//     }
+//     size--; 
+
+
+//     for(int i = 0; i < size; i++){
+//         cout<<arr[i]<<" ";
+//     }
+
+//     return 0;
+
+// }
+
+
+
+ 
+
+// Delete an element from the given position
 
 int main(){
     int arr[] = {10, 20, 30, 40, 50};
-    int size = 5;
+    int size = 5;   
 
-
-    int pos = 0;
-    for(int i = pos; i < size - 1; i++){
+    int pos;
+    cout<<"Enter postion which you wanna delet: ";
+    cin>>pos;
+    
+    for(int i = pos; i < size - 1; i ++){
         arr[i] = arr[i+1];
     }
-    size--; 
+
+    size--;
 
 
-    for(int i = 0; i < size; i++){
+    for(int i=0; i<size; i++){
         cout<<arr[i]<<" ";
     }
 
     return 0;
-
 }
-
- 
